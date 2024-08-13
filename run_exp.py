@@ -12,7 +12,6 @@ This is the script used to run experiments.
 """
 import argparse
 import logging
-
 from sparch.exp import Experiment
 from sparch.parsers.model_config import add_model_options
 from sparch.parsers.training_config import add_training_options
